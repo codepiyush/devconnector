@@ -1,13 +1,13 @@
 {
   "name": "devconnect",
   "version": "1.0.0",
-  "description": "social media for developers",
+  "description": "Social media app for Developers made for learning MERN stack",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "author": "piyush",
+  "author": "Piyush Bhargav",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

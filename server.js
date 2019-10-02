@@ -28,9 +28,9 @@ require('./config/passport')(passport);
 app.use("/api/users", users);
 app.use("/api/posts",posts);
 app.use("/api/profile",profile);
-app.get('/', (req,res)=>res.send("hello there"));
+app.get('/', (req,res)=>res.json({msg: 'This is test route '}));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 app.listen(port, ()=>{
     console.log(`Server started on port ${port}`);
