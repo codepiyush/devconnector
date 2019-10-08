@@ -24,8 +24,5 @@ Launches the test Api server on [http://localhost:5000](http://localhost:5000).<
 
 ### `npm client-install`
 
-Install dependencies for the React frontend client.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installs dependencies for the React frontend client.<br>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
