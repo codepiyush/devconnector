@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class Landing extends React.Component {
-  omponentDidMount() {
-    if (this.props.isAuthenticated) {
-      this.props.history.push('/dashboard')
+  componentDidMount() {
+    console.log(this.props.auth.isAuthenticated)
+    if(this.props.auth.isAuthenticated){
+        this.props.history.push('/dashboard')
     }
-  }
+}
   render() {
     return (
       <div className="landing">
